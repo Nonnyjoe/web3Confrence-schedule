@@ -76,11 +76,6 @@ body {
     background-color: #B91C1C;
 }
 
-#friday,
-#saturday {
-    height: 0px;
-}
-
 .name {
     margin: 0px;
 }
@@ -101,6 +96,7 @@ body {
     font-weight: 400;
     margin: 0px;
     line-height: 15px;
+    font-size: 14px;
 }
 
 .title {
@@ -110,6 +106,7 @@ body {
 .title p {
     font-weight: 700;
     margin: 0px;
+    font-size: 14px;
 }
 
 .presenter {
@@ -119,6 +116,7 @@ body {
 .nameTitle {
     font-weight: 700;
     margin: 0px;
+    font-size: 14px;
 }
 
 .name {
@@ -133,13 +131,9 @@ body {
     animation-duration: 5s;
 }
 
-@-webkit-keyframes expand {
-    0% {
-        height: 0px;
-    }
-    100% {
-        height: auto;
-    }
+#friday,
+#saturday {
+    height: 0px;
 }
 
 .divider {
