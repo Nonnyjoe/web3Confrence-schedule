@@ -12,6 +12,7 @@ body {
 
 .eventSchedule h3 {
     color: #FFFFFF;
+    font-size: 24px;
 }
 
 .navigation {
@@ -114,7 +115,7 @@ body {
 }
 
 .nameTitle {
-    font-weight: 700;
+    font-weight: 400;
     margin: 0px;
     font-size: 14px;
 }
@@ -140,4 +141,67 @@ body {
     width: 5px;
     height: 100%;
     background-color: red;
+}
+
+@media screen and (min-width: 768px) {
+    .eventSchedule {
+        padding: 4rem;
+    }
+    .individualEvent,
+    .content {
+        padding-left: 3rem;
+        padding-right: 4rem;
+    }
+    .time {
+        flex-basis: 325px;
+    }
+    .time p {
+        font-size: 16px;
+    }
+    .title {
+        flex-basis: 590px;
+        padding-left: 3rem;
+    }
+    .title p {
+        font-weight: 700;
+        margin: 0px;
+        font-size: 16px;
+    }
+    .nameTitle {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .eventSchedule {
+        padding-left: 7.875rem;
+        padding-right: 7.875rem;
+    }
+    .individualEvent {
+        gap: 7px
+    }
+    .individualEvent,
+    .content {
+        padding-left: 3rem;
+        padding-right: 2.5rem;
+    }
+    .time {
+        flex-basis: 325px;
+    }
+    .time p {
+        font-size: 16px;
+    }
+    .title {
+        flex-basis: 718px;
+        padding-left: 3rem;
+    }
+    .title p {
+        font-weight: 700;
+        margin: 0px;
+        font-size: 16px;
+    }
+    .nameTitle {
+        font-size: 16px;
+        font-weight: 400;
+    }
 }
